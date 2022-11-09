@@ -1,0 +1,5 @@
+protocol "MSI-test";
+include "RubySlicc_interfaces.slicc";
+include "MSI-test-msg.sm";
+include "MSI-test-cache.sm";
+include "MSI-test-dir.sm";
