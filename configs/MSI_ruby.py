@@ -43,7 +43,7 @@ import m5
 from m5.objects import *
 
 # Needed for running C++ threads
-m5.util.addToPath('../../')
+m5.util.addToPath('../../../configs/')
 from common.FileSystemConfig import config_filesystem
 
 # You can import ruby_caches_MI_example to use the MI_example protocol instead
